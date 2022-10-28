@@ -11,7 +11,8 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_NAME: serverlesspdf # set this to your function app name on Azure
-  PACKAGE_DIRECTORY: 'apachefop-serverless-az-func' # set this to the directory which contains pom.xml file
+  PACKAGE_DIRECTORY: './apachefop-serverless-az-func' # set this to the directory which contains pom.xml file
+  POM_FUNCTIONAPP_NAME: ApacheFOP     # set this to the function app name in your local development environment
   JAVA_VERSION: '11' # set this to the java version to use
 
 jobs:
